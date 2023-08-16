@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SeleniumJunit5BackEnd" />
+      </profile>
+      <profile name="Annotation profile for APITesting Florin" enabled="true">
+        <sourceOutputDir name="target/generated-sources/swagger" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="RestAssureWithJavaBH" />
+        <module name="RestAssureWithJava" />
+        <module name="UCP-RestAssured" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
